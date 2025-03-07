@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rayanlupo/Listify"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,6 +15,9 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "color": "^5.0.0",
+    "figlet": "^1.8.0",
+    "gradient": "^0.2.0",
     "inquirer": "^12.4.2"
   }
 }
