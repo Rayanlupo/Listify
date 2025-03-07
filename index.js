@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import figlet from "figlet";
 import inquirer from "inquirer";
-  
+// need to ask if the user wants to keep the whitespaces or not
 async function listify(){
     
     console.log(figlet.textSync("Make It list!!!"));
