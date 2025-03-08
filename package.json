@@ -1,21 +1,21 @@
 {
-  "name": "listify",
+  "name": "make-it-list",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rayanlupo/Listify"
+    "url": "https://github.com/Rayanlupo/MakeitList-CLI"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "author": "Rayanlupo",
+  "license": "MIT",
+  "description": "A CLI that turn your string into a list to help you debug your code",
+  "bin": "./index.js",
   "dependencies": {
-    "color": "^5.0.0",
     "figlet": "^1.8.0",
     "inquirer": "^12.4.2"
   }
